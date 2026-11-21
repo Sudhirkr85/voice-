@@ -1,0 +1,49 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+env/
+venv/
+.venv/
+
+# Ignore Specific Question Banks & Temporary JSONs (Keep engine generic)
+*.json
+*.csv
+*.xlsx
+
+# Heavy Video, Audio, and Image Media
+*.mp4
+*.mkv
+*.avi
+*.ts
+*.mp3
+*.wav
+*.jpg
+*.jpeg
+*.png
+*.pdf
+*.zip
+*.tar
+*.gz
+
+# Video Build Dirs & Content Folders
+NMMS_Video_Studio/cv_raman_200_live_marathon_build/
+NMMS_Video_Studio/haryana_science_2027_scroll_build/
+NMMS_Video_Studio/output/
+NMMS_Video_Studio/voice_samples/
+01_Study_Materials/
+02_Additional_Study_Material/
+CV_Raman_Class6_Video_Content/
+CV_Raman_Class7_Video_Content/
+CV_Raman_Class8_Video_Content/
+nmms-Special/
+NMMS_Master_Question_Bank/
+Ramanujan_Math_Class06_Video_Content/
+
+# OS and Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
