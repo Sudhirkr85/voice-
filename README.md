@@ -2,7 +2,8 @@
 
 A robust, production-calibrated Hindi AI voice cloning framework powered by **Chatterbox Multilingual TTS** (`chatterbox-tts`).
 
-Designed to generate clear, broadcast-quality educational voiceovers for **ANY topic, ANY subject, and ANY exam** (Science, Math, Social Science, Hindi, GK, Navodaya, NMMS, Competitive Exams, etc.) using natural Indian teacher voice cloning.
+* **Default Master Voice:** Shravan Sir's natural teaching voice (`shravan_sir_master_ref.wav` / `intro_0_20.wav`). Used by default across all future topics unless a different reference is explicitly specified.
+* **Scope:** Designed to generate clear, broadcast-quality educational voiceovers for **ANY topic, ANY subject, and ANY exam** (Science, Math, Social Science, Hindi, GK, Navodaya, NMMS, Competitive Exams, etc.).
 
 ---
 
