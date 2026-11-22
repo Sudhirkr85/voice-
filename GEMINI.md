@@ -70,3 +70,29 @@
 ## 4. Workspace & File System Boundaries
 * Do NOT copy, write, move, or store working project assets into `C:\Users\sudhi\Downloads\`.
 * Delete temporary audit/patch scripts immediately after execution.
+
+---
+
+## 5. Proven Real-World Edge Cases & Post-Mortem Lessons (CRITICAL)
+*Based on comprehensive audit of 402 clips (394 passed 100%, 8 failed with tail loop due to the following exact patterns):*
+
+1. **Negative Numbers / Raw Minus Signs:**
+   * NEVER write raw minus before numbers like `-1`, `-2`, `-5`.
+   * The Chatterbox tokenizer misinterprets raw `-` as a hyphen or unknown token, breaking `<EOS>`.
+   * ALWAYS spell out in Devanagari: `माइनस 1`, `माइनस 2`, `माइनस 5` or `माइनस एक अंक`.
+2. **Commas Inside Numbers:**
+   * NEVER write commas inside numbers (e.g., `20,000`, `1,000`).
+   * Commas inside numbers cause phonemizer breakdown and looping.
+   * ALWAYS write as `20000` or `बीस हजार`.
+3. **Alphanumeric Hyphenated Compounds & Chemicals:**
+   * NEVER leave patterns like `2,4-D` or `2,4-डी`.
+   * ALWAYS spell phonetically: `टू फोर डी`.
+   * NEVER leave hyphens in Hindi words like `कौन-सी` $\rightarrow$ ALWAYS write `कौन सी`.
+4. **Question Mark Followed by Run-on Sentences:**
+   * Avoid compound queries in one clip like `विद्युत प्रतिरोध का मात्रक क्या है? देखते हैं किसका जवाब सबसे पहले आता है, चैट में लिखिए।`
+   * Keep interrogative sentences crisp and natural: `विद्युत प्रतिरोध का मात्रक क्या होता है? चैट बॉक्स में फटाफट अपना उत्तर लिखिए।`
+5. **Missing Punctuation Between Clauses:**
+   * Run-on sentences without punctuation (e.g., `बदला जा सकता अनुत्क्रमणीय`) confuse prosody and timing.
+   * ALWAYS place a comma or purna viram between independent clauses.
+6. **Sentence Word Count Ceiling:**
+   * Keep spoken audio clips under **45 words**. Extremely long clips (> 50 words) with complex sub-clauses have higher risk of neural alignment degradation.

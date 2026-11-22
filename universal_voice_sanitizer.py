@@ -3,6 +3,7 @@
 Universal Voice Script Sanitizer for Chatterbox Multilingual TTS
 Ensures 100% Devanagari Hindi, zero Latin characters, and clean punctuation
 to prevent 32-second infinite babbling loops.
+Includes production lessons learned from real-world 402-clip marathon audit.
 """
 
 import re
@@ -35,6 +36,8 @@ TRANSLITERATION_MAP = {
     r"\bcm\b": "सेंटीमीटर",
     r"\bmm\b": "मिलीमीटर",
     r"\bkg\b": "किलोग्राम",
+    r"\b2,4-D\b": "टू फोर डी",
+    r"\b2,4-डी\b": "टू फोर डी",
 }
 
 
@@ -43,16 +46,30 @@ def sanitize_text(text: str) -> str:
     if not text:
         return ""
 
-    # Apply transliteration mapping
+    # 1. Specific Alphanumeric Chemical / Formulation Names
+    text = re.sub(r"2,4-[dD]\b", "टू फोर डी", text)
+    text = re.sub(r"2,4-डी", "टू फोर डी", text)
+
+    # 2. Apply general transliteration mapping
     for pattern, repl in TRANSLITERATION_MAP.items():
         text = re.sub(pattern, repl, text, flags=re.IGNORECASE)
 
-    # Common symbols
+    # 3. Fix negative numbers (e.g. -1 -> माइनस 1, -2 -> माइनस 2)
+    text = re.sub(r"(?<=\s)-(\d+)", r"माइनस \1", text)
+    text = re.sub(r"^-(\d+)", r"माइनस \1", text)
+
+    # 4. Strip commas inside numbers (e.g. 20,000 -> 20000)
+    text = re.sub(r"(\d+),(\d+)", r"\1\2", text)
+
+    # 4. Strip hyphens in Hindi words (e.g. कौन-सी -> कौन सी, द्वि-स्लिट -> द्वि स्लिट)
+    text = re.sub(r"([^\x00-\x7F])-([^\x00-\x7F])", r"\1 \2", text)
+
+    # 5. Common symbols
     text = text.replace("%", " प्रतिशत")
     text = text.replace("°", " डिग्री ")
     text = text.replace("+", " प्लस ")
 
-    # Strip exclamation and bad punctuation that kills <EOS> token
+    # 6. Strip exclamation and bad punctuation that kills <EOS> token
     text = text.replace("!", "।")
     text = text.replace("！", "।")
     text = text.replace("।।", "।")
@@ -61,10 +78,10 @@ def sanitize_text(text: str) -> str:
     text = text.replace("...", "।")
     text = text.replace("—", " ").replace("–", " ")
 
-    # Clean multi-spaces
+    # 7. Clean multi-spaces
     text = re.sub(r"[ \t]+", " ", text).strip()
 
-    # Ensure clean ending
+    # 8. Ensure clean ending
     if text.endswith("?"):
         pass
     elif not text.endswith("।"):
@@ -77,6 +94,6 @@ def sanitize_text(text: str) -> str:
 
 
 if __name__ == "__main__":
-    sample = "बिल्कुल सही! Option A सही उत्तर है, DNA 100% शुद्ध है!!"
+    sample = "बिल्कुल सही! Option A सही उत्तर है, 20,000 हर्ट्ज और -1 की घात तथा 2,4-डी खरपतवार कौन-सी है?"
     print("Original:", sample)
     print("Sanitized:", sanitize_text(sample))

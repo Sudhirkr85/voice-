@@ -9,16 +9,20 @@ A robust, production-calibrated Hindi AI voice cloning framework powered by **Ch
 
 ## 🌟 Key Architecture & The 32s Hallucination Prevention
 
-Autoregressive TTS models (like Chatterbox MTL) generate audio tokens sequentially. When given mixed Latin/English characters or exclamation marks (`!`), the neural network fails to predict the `<EOS>` (End Of Sequence) token, causing the AI to babble in a repetition loop until hitting the 32.76-second hard limit.
+Autoregressive TTS models (like Chatterbox MTL) generate audio tokens sequentially. When given mixed Latin/English characters, exclamation marks (`!`), raw minus signs, or comma-separated numbers, the neural network fails to predict the `<EOS>` (End Of Sequence) token, causing the AI to babble in a repetition loop until hitting the 32.76-second hard limit.
 
-This repository enforces strict rules that guarantee **zero loops and zero hallucinations**:
+This repository enforces strict rules and post-mortem lessons that guarantee **zero loops and zero hallucinations**:
 
 1. **Pure Devanagari Hindi (Zero Latin Letters):**
    - Options are always `विकल्प ए/बी/सी/डी` (never `विकल्प A/B/C/D`).
    - Science/math acronyms and units are transliterated phonetically into Devanagari (`डीएनए`, `पीएच`, `एसपी थ्री`, `किलोमीटर प्रति घंटा`).
-2. **Punctuation Rules:**
+2. **Punctuation & Syntax Rules:**
    - Every spoken sentence MUST end with a single purna viram (`।`) or clean question mark (`?`).
    - Exclamation marks (`!`), double danda (`।।`), and ellipses (`...`) are strictly stripped.
+   - Raw minus in numbers (`-1`, `-2`) is transliterated to `माइनस 1`, `माइनस 2`.
+   - Commas inside numbers (`20,000`) are stripped to `20000` or written in words.
+   - Alphanumeric compounds (`2,4-डी`, `कौन-सी`) are converted to clean words (`टू फोर डी`, `कौन सी`).
+   - Clips are capped under 45 words to prevent neural alignment drift.
 3. **Calibrated Inference Hyperparameters:**
    ```python
    wav = model.generate(
