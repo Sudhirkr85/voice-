@@ -342,7 +342,7 @@ def mux_one_clip(cmd, clip_path):
 def mux_and_assemble_video():
     print("--- 3. Muxing Clips with FFmpeg in Parallel (8 Workers) ---")
     concat_list_path = os.path.join(BUILD_DIR, "concat.txt")
-    final_video = os.path.join(OUT_DIR, "CV_Raman_200Q_Live_Mahamarathon_CBT.mp4")
+    final_video = os.path.join(OUT_DIR, "CV_Raman_200Q_Live_Mahamarathon_Shravan_Sir_Voice_CBT.mp4")
     
     def find_audio(name):
         for ext in [".wav", ".mp3"]:
