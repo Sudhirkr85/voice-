@@ -98,6 +98,7 @@
 | 15 | How to Connect Python to MySQL in VS Code | Database & Python Connection | 16:9 Long + 9:16 Short | PrabhatNeural (English) | ✅ Uploaded |
 | 16 | How to Connect MySQL in Java / NetBeans using JDBC | Database & Java JDBC | 16:9 Long (6m 08s) + 9:16 Short (48.0s) | PrabhatNeural (English) | ✅ Uploaded |
 | 17 | Critical Ghostscript Zero-Day (CVE-2026-125396) Patch | Day-0 Security Alert (RCE) | 16:9 Long (48.0s) | PrabhatNeural (English) | ✅ Uploaded |
+| 18 | How to Reset Forgotten MySQL Root Password in Windows 11 | Password Recovery & Error 1045 | 16:9 Long (3m 48s) | PrabhatNeural (English) | ⏳ Rendered & Ready |
 
 ---
 
