@@ -96,3 +96,9 @@
    * ALWAYS place a comma or purna viram between independent clauses.
 6. **Sentence Word Count Ceiling:**
    * Keep spoken audio clips under **45 words**. Extremely long clips (> 50 words) with complex sub-clauses have higher risk of neural alignment degradation.
+7. **Never Repeat Identical Complex Formulas in the Same Clip:**
+   * NEVER repeat an identical complex math/physics formula twice in the same clip (e.g. formula in explanation and then repeated word-for-word in the option closure).
+   * Repeating an identical complex phoneme sequence triggers self-attention looping. State the formula in the explanation and close crisply: `सही उत्तर है विकल्प सी।`
+8. **Large Numbers (>9999) and Boundary Closures:**
+   * Never leave numbers like `20000` bare at the end of a sentence before purna viram.
+   * Always write in Hindi words (`20 हजार`) and close with a natural postposition (e.g. `20 हर्ट्ज से 20 हजार हर्ट्ज तक।`).

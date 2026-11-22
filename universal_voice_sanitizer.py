@@ -58,7 +58,9 @@ def sanitize_text(text: str) -> str:
     text = re.sub(r"(?<=\s)-(\d+)", r"माइनस \1", text)
     text = re.sub(r"^-(\d+)", r"माइनस \1", text)
 
-    # 4. Strip commas inside numbers (e.g. 20,000 -> 20000)
+    # 4. Strip commas inside numbers (e.g. 20,000 -> 20 हजार or 20000)
+    text = re.sub(r"\b20,000\b", "20 हजार", text)
+    text = re.sub(r"\b20000\b", "20 हजार", text)
     text = re.sub(r"(\d+),(\d+)", r"\1\2", text)
 
     # 4. Strip hyphens in Hindi words (e.g. कौन-सी -> कौन सी, द्वि-स्लिट -> द्वि स्लिट)
