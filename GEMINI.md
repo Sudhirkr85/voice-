@@ -135,3 +135,14 @@
    * Content: 2-3 natural sentences covering welcoming, question presentation, and explanation cadence.
    * Format: Mono `.wav` or high-bitrate `.m4a`/`.mp3` with clean background (SNR > 30dB).
 
+---
+
+## 8. Bihar Coaching Tone & Spoken Addressing Vocabulary (CRITICAL)
+* ❌ **STRICTLY FORBIDDEN:** NEVER use the word **"बच्चों"** (Bachhon) — this word is not used in Bihar coaching/student culture.
+* ✅ **NATURAL BIHAR ADDRESSING WORDS:**
+  * **"साथियों"** (e.g. *नमस्कार साथियों, स्वागत है आप सभी का...*)
+  * **"विद्यार्थियों"** / **"छात्रों"** (e.g. *सभी विद्यार्थी ध्यान दीजिए...*)
+  * **"दोस्तों"** (e.g. *चलिए दोस्तों, देखते हैं किसका उत्तर सही आता है...*)
+  * **"आप लोग"** / **"सभी लोग"** (e.g. *आप लोग चैट बॉक्स में फटाफट बताइए...*)
+
+
