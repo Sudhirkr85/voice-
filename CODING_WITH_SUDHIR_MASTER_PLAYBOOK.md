@@ -82,6 +82,13 @@
 
 ---
 
+## 🚫 Description & Links Policy: Zero Placeholder / Fake Links
+- **STRICT RULE:** Description me kabhi bhi fake ya placeholder product links (`amzn.to/example...`) nahi daalna hai.
+- **YouTube Shopping Integration:** Monetized 6K+ channel par products direct YouTube Studio ke **Shopping / Tag Products** section se select karke tag hote hain, na ki description ke fake links se.
+- **Only Genuine Links:** Description me sirf genuine official software links (e.g. `https://www.typingmaster.com`), accurate timestamps, aur clean tags rahenge.
+
+---
+
 ## 🧹 Workspace Cleanliness Protocol
 - Intermediate temporary clips (`c0.mp4`, `short_merged.mp4`), frame dumps, and audio slices must be **auto-deleted immediately** after final video rendering and upload confirmation.
 - Keep only master tracker and final production assets.
