@@ -92,30 +92,13 @@
 
 ---
 
-## 4. Video UI & Presentation Standards (YouTube Long Videos)
-* **100% Pure White Background:**
-  * ❌ NEVER use dark AI template blue/slate gradients (`#0f172a`), neon borders, or dashed boxes.
-  * ✅ ALWAYS use clean, pure white background (`#ffffff`).
-* **Active Visual Countdown Timer:**
-  * ❌ NEVER use static placeholder buttons like "8s Timer".
-  * ✅ ALWAYS use an active animated ticking countdown ring (10... 9... 8... 1... 0) during student thinking window.
-* **Solution Box:**
-  * High-contrast Emerald Green card displaying the correct option, step-by-step shortcut trick, and scientific formula.
-* **Clean CBT Screenshot Footer:**
-  * Crop top status bar (battery/wifi) and bottom nav buttons.
-  * Patch footer to a single clean line: `© 2026 Online Examination System. All rights reserved.` with zero double text or ghosting.
-* **Spoken Student Addressing:**
-  * For uploaded videos: ALWAYS ask students to reply in **"कमेंट बॉक्स"** (NEVER "लाइव चैट").
-
----
-
-## 5. Workspace & File System Boundaries
+## 4. Workspace & File System Boundaries
 * Do NOT copy, write, move, or store working project assets into `C:\Users\sudhi\Downloads\`.
 * Delete temporary audit/patch scripts immediately after execution.
 
 ---
 
-## 6. Proven Real-World Edge Cases & Post-Mortem Lessons (CRITICAL)
+## 5. Proven Real-World Edge Cases & Post-Mortem Lessons (CRITICAL)
 *Based on comprehensive audit of 402 clips (394 passed 100%, 8 failed with tail loop due to the following exact patterns):*
 
 1. **Negative Numbers / Raw Minus Signs:**
@@ -147,7 +130,7 @@
 
 ---
 
-## 7. Live Marathon Pacing & Video Cadence Standards (Student Feedback Calibrated)
+## 6. Live Marathon Pacing & Video Cadence Standards (Student Feedback Calibrated)
 1. **Question Thinking Window:**
    * Standard: `pad_dur = 8.0` to `10.0` seconds (NEVER 4.5s for interactive classes).
    * Students need at least 8-10 seconds to read 4 options on mobile, decide, and type in comment/chat box.
@@ -160,7 +143,7 @@
 
 ---
 
-## 8. Bihar Coaching Tone & Spoken Addressing Vocabulary (CRITICAL)
+## 7. Bihar Coaching Tone & Spoken Addressing Vocabulary (CRITICAL)
 * ❌ **STRICTLY FORBIDDEN:** NEVER use the word **"बच्चों"** (Bachhon) — this word is not used in Bihar coaching/student culture.
 * ✅ **NATURAL BIHAR ADDRESSING WORDS:**
   * **"साथियों"** (e.g. *नमस्कार साथियों, स्वागत है आप सभी का...*)
