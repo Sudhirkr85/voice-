@@ -19,6 +19,7 @@ venv/
 *.ts
 *.mp3
 *.wav
+!NMMS_Video_Studio/custom_voice_ref/*.wav
 *.jpg
 *.jpeg
 *.png

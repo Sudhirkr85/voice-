@@ -6,9 +6,14 @@
 
 ## 1. Chatterbox Multilingual TTS & Voice Cloning Rules
 * **Model Engine:** `ChatterboxMultilingualTTS` from `chatterbox-tts`.
-* **Default Master Voice Reference (Permanent Anchor):**
-  * **Primary Voice:** Shravan Sir's natural Hindi teacher voice (`shravan_sir_master_ref.wav` / `intro_0_20.wav` from YouTube `https://youtu.be/ixCAZT2vHcM` 0:00–0:20).
-  * **Default Behavior:** Unless the user explicitly provides or requests a different voice sample, ALWAYS use Shravan Sir's voice reference as the default for all future videos, marathons, and topics.
+* **Two Official Master Voice References (Permanent Anchors):**
+  1. **Primary Master Voice (Sudhir Sir):** `sudhir_master_ref.wav` (Located at `NMMS_Video_Studio/custom_voice_ref/sudhir_master_ref.wav`).
+     - Extracted from Akanksha Junior Classes (`DWIdV8QTKNU` 1:31–1:51.5).
+     - 20.50s, 24kHz, 28.8 dB SNR, crystal-clear, calm, and measured explanation pace.
+     - **Default choice** for majority of upcoming marathons, classes, and videos.
+  2. **Secondary Master Voice (Shravan Sir):** `shravan_sir_master_ref.wav` (Located at `NMMS_Video_Studio/custom_voice_ref/shravan_sir_master_ref.wav` / `intro_0_20.wav`).
+     - 20.01s, 16kHz, authoritative teacher voice for Sagar Coaching Centre Bhagwanpur content.
+  * **Rule:** ONLY these 2 official master voices are used. Every project must explicitly choose between Sudhir Sir (Default) or Shravan Sir.
 * **Zero Latin / English Letter Rule (Absolute Strictness):**
   * NEVER leave Latin characters (`A-Z`, `a-z`) in spoken text (`voice_q`, `voice_ans`, narration, dialogues).
   * Options: ALWAYS use `विकल्प ए/बी/सी/डी` (NEVER `विकल्प A/B/C/D`).
