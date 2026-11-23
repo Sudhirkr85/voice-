@@ -102,3 +102,31 @@
 8. **Large Numbers (>9999) and Boundary Closures:**
    * Never leave numbers like `20000` bare at the end of a sentence before purna viram.
    * Always write in Hindi words (`20 हजार`) and close with a natural postposition (e.g. `20 हर्ट्ज से 20 हजार हर्ट्ज तक।`).
+
+---
+
+## 6. Live Marathon Pacing & Video Cadence Standards (Student Feedback Calibrated)
+*Real-world student feedback from YouTube Live Chat showed standard pacing was too fast ("fast h sir"):*
+
+1. **Question Thinking & Chat Response Window (CRITICAL):**
+   * Standard: `pad_dur = 8.0` to `10.0` seconds (NEVER 4.5s for live interactive marathons).
+   * Students need at least 8-10 seconds to read 4 options on mobile, decide, and type in live chat.
+2. **Solution Box Retention Time:**
+   * Standard: `pad_dur = 2.5` to `3.0` seconds after `voice_ans` finishes.
+   * Allows students to read the shortcut trick and scientific formula peacefully before the slide scrolls.
+3. **Spoken Cadence & Comma Spacing:**
+   * Insert commas between thought clauses (e.g., `ध्यान से देखिए, और 10 सेकंड में अपना उत्तर चैट में लिखिए।`).
+   * Commas introduce natural breath pauses in Chatterbox, slowing down rapid delivery.
+
+---
+
+## 7. Voice Reference & Audio Prompt Standards (Best Practice Protocol)
+1. **Dedicated Mic Recording vs YouTube Audio:**
+   * A dedicated 15–22 second dry studio voice recording (quiet room, close mic, no echo) is vastly superior to YouTube extracts.
+   * YouTube clips often carry room reverb, compression artifacts, or varying mic gain that Chatterbox clones into every token.
+2. **Golden Voice Sample Requirements:**
+   * Duration: **18 to 22 seconds**.
+   * Delivery: Calm, confident, authoritative teacher tone at a relaxed, measured speaking rate.
+   * Content: 2-3 natural sentences covering welcoming, question presentation, and explanation cadence.
+   * Format: Mono `.wav` or high-bitrate `.m4a`/`.mp3` with clean background (SNR > 30dB).
+
