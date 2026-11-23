@@ -58,17 +58,26 @@
   - ✅ **Actual Error UI / Code Snippet:** Real terminal prompt, Windows error dialog, or red error badge.
   - ✅ **Bold, High-Impact Text (Max 3-5 words):**
     - Example: `HTTP 404 NOT FOUND` | `FIX IN 2 MINS`
-    - Example: `MySQL + Java` | `JDBC Connection Fix`
+    - Example: `TYPING MASTER 12` | `INSTALL ON WIN 11`
   - ✅ **Visual Arrow / Highlight:** Red or Neon Yellow arrow pointing directly at the solution.
 
 ---
 
-## 📱 Strict YouTube Shorts Standard (45s - 50s Locked)
+## 🏷️ Mandatory Software Version Rule (Title, Description & Thumbnail)
+- **THE GOLDEN LAW:** Always **explicitly mention the exact software version number** in:
+  1. **Title:** e.g. `How to Download and Install Typing Master 12 on Windows 11`, `How to Install OBS Studio 33.0.3 on Windows 11`.
+  2. **Description:** First line and command tags must explicitly state the version.
+  3. **Thumbnail:** Prominently display the exact version badge (e.g. `VERSION 12`, `v33.0`, `7.2.22 LATEST`).
+- **Why:** Sudhir's unique channel edge is Day-0/New-Version coverage. Users searching on YouTube skip generic videos and click videos that clearly advertise the latest version!
+
+---
+
+## 📱 Strict YouTube Shorts Standard
 - **Mandatory Permission Rule:** Har long video ke baad agent user se pehle PUCHHEGA: *"Kya is video ka Short ready karein ya nahi?"* Bina user ke 'haan' bole Short render nahi karna hai.
-- **Duration:** Strictly between 45.0s and 50.0s (NEVER > 60s).
+- **Duration:** Flexible & relaxed (45s to 75s), matching natural actions smoothly without artificial speedups (YouTube Shorts allows up to 3 minutes).
 - **Pixel Aspect Ratio (SAR):** Always force `setsar=1:1` and `DAR 9:16` (`1080x1920`).
 - **Layout:** Blurred background + Crisp scaled center frame.
-- **Top Banner (y=180, h=310):** Bold Title (White + Neon Green + Yellow). **NEVER put year in Shorts banner.**
+- **Top Banner (y=180, h=310):** Bold Title + Version (White + Neon Green + Yellow). **NEVER put year in Shorts banner.**
 - **Bottom Banner (y=1420, h=230):** Clear solution callout (Yellow + White).
 
 ---
