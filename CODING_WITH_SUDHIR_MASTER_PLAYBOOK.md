@@ -26,11 +26,13 @@
 2. **Volume Boost Standard (Loud & Crisp on Mobile):**
    - In ffmpeg `amix`, ALWAYS apply `volume=2.4` (+7.6 dB boost).
    - Clean, punchy broadcast audio without clipping or distortion.
-3. **Frame-by-Frame Synchronization (The Golden Sync Rule):**
-   - For natural raw screen recordings (< 7 minutes), **NEVER arbitrarily speed up or cut middle video chunks**.
-   - Speeding up arbitrary parts causes a disastrous 15-20 second audio lag where voice describes an action that already finished.
-   - **The Formula:** Keep the raw video at 1:1 speed. Calculate the exact milliseconds of each mouse click/action and delay audio segments using `adelay` (`delays_ms = [500, 15000, ...]`).
-   - Verify every adjacent segment delay: `delay[i+1] > delay[i] + duration(seg[i])` (strictly positive gap, zero overlapping speech).
+3. **🔒 PERMANENT LAW: ABSOLUTE FRAME-BY-FRAME SYNC (NO RUSH, PERFECT ALIGNMENT):**
+   - **Quality Over Speed:** Take full time. NEVER rush video generation.
+   - **Zero Hallucination:** NEVER guess or assume commands/windows (e.g., if user used Admin CMD `net STOP`, never speak `services.msc`).
+   - **Visual Verification First:** Always inspect actual video frames and user speech transcript to know the exact tool, command, and timestamp.
+   - **1:1 Action-to-Voice Timing:** When user types `net STOP MySQL80`, voice MUST say that exact command at that exact second.
+   - **Intelligent Starting Hooks:** When creating dedicated videos from multi-part recordings, cut irrelevant intro/setup frames so the video opens directly on the problem (e.g. starting directly on Workbench Error dialog).
+   - **YouTube Shorts Flexibility:** Shorts can be comfortably 60s to 75s (relaxed, natural pacing matching real actions) since YouTube allows up to 3 minutes. Never rush cuts into artificial 45s speedups.
 
 ---
 
