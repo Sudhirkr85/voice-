@@ -12,7 +12,18 @@
    - ✅ **Second 0-3:** Directly state the exact problem/goal and start solving it.
    - Universal, neutral developer tone builds immediate global trust.
 
-2. **Global Audience = High RPM ($$$):**
+2. **🔥 The 5-8 Second Fast Climax Teaser Hook Rule (High Retention Booster):**
+   - For tools, setups, or installations that produce an impressive end result (e.g. running AI models, compiler outputs, web dashboards):
+   - Programmatically take the final 5-7 seconds of the working result (e.g. AI streaming answers in terminal) and place it at `0:00 - 0:07` as a fast-paced, high-energy teaser hook.
+   - Overlay bold text: `RUN 100% FREE AI OFFLINE` or `WORKING RESULT`.
+   - Voice states the compelling outcome, then smoothly cuts to `Step 1 (First, open your browser...)`.
+   - This prevents early drop-offs, pushes audience retention past 70%, and drives YouTube algorithm recommendation!
+
+3. **🔍 Mandatory Tracker Cross-Check Rule (Never Duplicate Work):**
+   - Always cross-reference the 23+ completed videos in `CHANNEL_PRODUCTION_TRACKER.md` before recommending or beginning production.
+   - Never repeat identical angles without explicitly informing the user and providing a distinct, fresh angle (e.g., dedicated base install vs specific tool walkthrough).
+
+4. **Global Audience = High RPM ($$$):**
    - High search traffic comes from US, Europe, UK, and worldwide developers.
    - Title, description, and spoken keywords must be in **English**.
    - Voice: Neutral, articulate, calm Indian English Neural (`en-IN-PrabhatNeural`).
