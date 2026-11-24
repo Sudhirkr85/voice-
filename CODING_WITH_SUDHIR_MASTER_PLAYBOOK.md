@@ -119,6 +119,7 @@
 | 18 | How to Reset Forgotten MySQL Root Password in Windows 11 | Password Recovery | 16:9 Long (3m 49s) + 9:16 Short (68.0s) | PrabhatNeural (English) | ✅ Uploaded |
 | 19 | Fix 'Access Denied for user root@localhost' (MySQL Error 1045) | Error 1045 Fix | 16:9 Long (3m 10s) + 9:16 Short (66.5s) | PrabhatNeural (English) | ✅ Uploaded |
 | 20 | How to Download and Install Typing Master 12 on Windows 11 | Software Installation | 16:9 Long (2m 33s) + 9:16 Short (46.3s) | PrabhatNeural (English) | ✅ Uploaded |
+| 21 | How to Download and Install WinRAR 7.23 on Windows 11 | Software Installation | 16:9 Long (1m 07s) | PrabhatNeural (English) | ⏳ Rendered & Ready |
 
 ---
 
