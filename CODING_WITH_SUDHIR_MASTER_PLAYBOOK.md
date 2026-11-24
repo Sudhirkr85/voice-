@@ -48,7 +48,10 @@
 
 ---
 
-## 🎨 Thumbnail Philosophy: "Simple, Real, High CTR" (No Fake AI Clutter!)
+## 🎨 Thumbnail Philosophy: "Simple, Real, High CTR" (No Auto-Generated Files!)
+- **STRICT PERMANENT RULE:**
+  - ❌ **NEVER** automatically generate image files (`.png` / `.jpg`) for thumbnails with python/scripts.
+  - ✅ **ALWAYS** provide a clean, high-CTR, click-magnet **Thumbnail PROMPT** (optimized for Midjourney/Ideogram/Canva/DALL-E) along with exact text layout recommendations.
 - **Lesson from Sudhir's #1 Best-Performing Video (404 Error Fix):**
   - Highest RPM and highest views came from a **simple, authentic, real-looking thumbnail**.
 - **Strict Guidelines:**
@@ -120,6 +123,7 @@
 | 19 | Fix 'Access Denied for user root@localhost' (MySQL Error 1045) | Error 1045 Fix | 16:9 Long (3m 10s) + 9:16 Short (66.5s) | PrabhatNeural (English) | ✅ Uploaded |
 | 20 | How to Download and Install Typing Master 12 on Windows 11 | Software Installation | 16:9 Long (2m 33s) + 9:16 Short (46.3s) | PrabhatNeural (English) | ✅ Uploaded |
 | 21 | How to Download and Install WinRAR 7.23 on Windows 11 | Software Installation | 16:9 Long (1m 07s) + 9:16 Short (46.5s) | PrabhatNeural (English) | ✅ Uploaded |
+| 22 | How to Download and Install 7-Zip 26.06 on Windows 11 | Software Installation | 16:9 Long (1m 01s) + 9:16 Short (46.5s) | PrabhatNeural (English) | 🚀 Ready for Upload |
 
 ---
 
