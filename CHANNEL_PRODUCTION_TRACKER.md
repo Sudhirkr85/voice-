@@ -75,6 +75,7 @@ Master Rules & Operating System: [CHANNEL_MASTER_OPERATING_SYSTEM.md](file:///C:
 | 23 | How to Download and Install VirtualBox 7.2.22 on Windows 11 | Software Installation | 16:9 Long (2m 00s) + 9:16 Short (46.5s) | PrabhatNeural (English) | ✅ Uploaded |
 | 24 | How to Install Ollama 0.40.18 on Windows 11 | AI Tool / Local LLM | 16:9 Long (3m 26s) + 9:16 Short (46.5s) | PrabhatNeural (English) | ✅ Uploaded |
 | 25 | How to Download and Install XAMPP on Windows 11 | Web Server / PHP & MySQL | 16:9 Long (2m 20s) + 9:16 Short (46.5s) | PrabhatNeural (English) | 🚀 Ready for Upload |
+| 26 | Fix XAMPP MySQL Error: Port 3306 in use by Unable to open process | Error Fix / Web Server | 16:9 Long (59.9s) + 9:16 Short (46.5s) | PrabhatNeural (English) | 🚀 Ready for Upload |
 
 ---
 
