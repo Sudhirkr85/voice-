@@ -74,6 +74,7 @@ Master Rules & Operating System: [CHANNEL_MASTER_OPERATING_SYSTEM.md](file:///C:
 | 22 | How to Download and Install 7-Zip 26.06 on Windows 11 | Software Installation | 16:9 Long (1m 01s) + 9:16 Short (46.5s) | PrabhatNeural (English) | ✅ Uploaded |
 | 23 | How to Download and Install VirtualBox 7.2.22 on Windows 11 | Software Installation | 16:9 Long (2m 00s) + 9:16 Short (46.5s) | PrabhatNeural (English) | ✅ Uploaded |
 | 24 | How to Install Ollama 0.40.18 on Windows 11 | AI Tool / Local LLM | 16:9 Long (3m 26s) + 9:16 Short (46.5s) | PrabhatNeural (English) | ✅ Uploaded |
+| 25 | How to Download and Install XAMPP on Windows 11 | Web Server / PHP & MySQL | 16:9 Long (2m 20s) + 9:16 Short (46.5s) | PrabhatNeural (English) | 🚀 Ready for Upload |
 
 ---
 
