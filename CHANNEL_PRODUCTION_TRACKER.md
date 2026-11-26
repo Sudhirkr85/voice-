@@ -76,7 +76,7 @@ Master Rules & Operating System: [CHANNEL_MASTER_OPERATING_SYSTEM.md](file:///C:
 | 24 | How to Install Ollama 0.40.18 on Windows 11 | AI Tool / Local LLM | 16:9 Long (3m 26s) + 9:16 Short (46.5s) | PrabhatNeural (English) | ✅ Uploaded |
 | 25 | How to Download and Install XAMPP on Windows 11 | Web Server / PHP & MySQL | 16:9 Long (2m 20s) + 9:16 Short (46.5s) | PrabhatNeural (English) | ✅ Uploaded |
 | 26 | Fix XAMPP MySQL Error: Port 3306 in use by Unable to open process | Error Fix / Web Server | 16:9 Long (59.9s) + 9:16 Short (46.5s) | PrabhatNeural (English) | ✅ Uploaded |
-| 27 | How to Download and Install Bun on Windows 11 (v1.4.5) | JavaScript Runtime / Dev Tools | 16:9 Long (1m 26s) + 9:16 Short (46.5s) | PrabhatNeural (English) | 🚀 Ready for Upload |
+| 27 | How to Download and Install Bun on Windows 11 (v1.4.5) | JavaScript Runtime / Dev Tools | 16:9 Long (1m 26s) + 9:16 Short (46.5s) | PrabhatNeural (English) | ✅ Uploaded |
 
 ---
 
