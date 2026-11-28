@@ -94,3 +94,32 @@ Every video must have:
 4. **Fix 'JAVA_HOME is not set' in Windows 11**.
 5. **Fix 'Cannot find module' in Node.js / VS Code**.
 6. **Fix 'Port 8080 already in use' in Tomcat / Spring Boot**.
+
+---
+
+## ⚡ 7. Permanent Video Editing & Speed-Ramping Protocol (Locked Standard)
+*(Confirmed by User on 2026-11-28 — Apply to ALL future videos without exception!)*
+
+1. **Speed-Ramping & Frame-Accurate Visual Sync:**
+   - Always map the EXACT second the visual action happens on screen.
+   - **Ghost Scene Trimming:** If a wizard/dialogue is not yet on screen (e.g. idle browser page waiting for download), trim the idle wait time! Never let voice speak over a screen showing something else.
+   - **Fast-Forward Boring Progress Bars (2.0x - 2.5x speed):** Downloads, package extractions, and slow installs must be speed-ramped (`setpts=0.4*PTS`) so the viewer sees fast visual momentum.
+   - **Slow-Down Fast User Clicks (0.75x - 0.8x speed):** If user quickly marks checkboxes or clicks menus, slow down slightly (`setpts=1.25*PTS`) so cursor movement matches the spoken instruction in real-time.
+
+2. **Zero Dead Silence & No Hallucinations:**
+   - Every video clip duration must tightly match speech duration (maximum pause 1.5s - 2.5s for natural cursor motion, NEVER 10s - 60s silence!).
+   - If user makes an accidental misstep in the raw recording (e.g. accidental linker error in terminal), trim it out and showcase the clean, working execution! Never claim "zero errors" while a red error is on screen.
+
+3. **Voiceover Strict Mandates:**
+   - ❌ **NEVER speak channel name ("Coding with Sudhir")** in voiceover.
+   - ❌ **NEVER speak year ("2026", "2027")** in voiceover. (Year belongs in Titles, Descriptions, Thumbnails ONLY).
+   - Spoken persona: `en-IN-PrabhatNeural` with `volume=2.4` (+7.6 dB audio boost).
+
+4. **Mandatory Climax Hook #1 at 00:00:**
+   - Always put a 5s-6s teaser hook at the beginning showing the final working code / successful command output!
+
+5. **Shorts Standard:**
+   - Strictly 45.0s to 50.0s (DAR 9:16 vertical 1080x1920).
+   - Top banner `y=210..330`, Bottom banner `y=1420..1530`.
+   - Timeless banners (NO year in banners).
+   - Non-stop voiceover with tight visual pacing.
