@@ -5,8 +5,9 @@ Master Rules & Operating System: [CHANNEL_MASTER_OPERATING_SYSTEM.md](file:///C:
 
 ## 📊 Daily Production Log (Channel Rule: Quality > Quantity)
 - **Today's Date:** 2026-11-28
-- **Videos Completed Today:** 1 Video (Node.js 26 LTS on Windows 11) - 🚀 Ready for Upload
+- **Videos Completed Today:** 2 Videos (Node.js 26 LTS & C/C++ in VS Code with MinGW) - 🚀 Ready for Upload
   1. `How to Download and Install Node.js on Windows 11 (v26 LTS)` (16:9 Long 1m 09s + 9:16 Short 47.0s) - 🚀 Ready for Upload
+  2. `How to Setup C and C++ in VS Code on Windows 11 (2027) | Complete MinGW GCC Setup` (16:9 Long 2m 17s + 9:16 Short 47.0s) - 🚀 Ready for Upload
 - **Yesterday's Date (2026-11-27):** 3 Videos (Go 1.27.4, PostgreSQL 19, Fix 'psql' Not Recognized) - ✅ Uploaded
   1. `How to Download and Install Go on Windows 11 (v1.27.4)` (16:9 Long 2m 20s + 9:16 Short 46.5s) - ✅ Uploaded
   2. `How to Download and Install PostgreSQL 19 on Windows 11 (with pgAdmin 4)` (16:9 Long 2m 22s + 9:16 Short 46.5s) - ✅ Uploaded
@@ -90,6 +91,7 @@ Master Rules & Operating System: [CHANNEL_MASTER_OPERATING_SYSTEM.md](file:///C:
 | 31 | How to Download and Install PostgreSQL 19 on Windows 11 (with pgAdmin 4) | Relational Database / Dev Tools | 16:9 Long (2m 22s) + 9:16 Short (46.5s) | PrabhatNeural (English) | ✅ Uploaded |
 | 32 | Fix 'psql' is not recognized as an internal or external command in Windows 11 | Error Fix / Developer Setup | 16:9 Long (1m 07s) + 9:16 Short (47.0s) | PrabhatNeural (English) | ✅ Uploaded |
 | 33 | How to Download and Install Node.js on Windows 11 (v26 LTS) | Developer Setup / Runtime | 16:9 Long (1m 09s) + 9:16 Short (47.0s) | PrabhatNeural (English) | 🚀 Ready for Upload |
+| 34 | How to Setup C and C++ in VS Code on Windows 11 (2027) | Complete MinGW GCC Setup | 16:9 Long (2m 17s) + 9:16 Short (47.0s) | PrabhatNeural (English) | 🚀 Ready for Upload |
 
 ---
 
